@@ -1,5 +1,5 @@
 /*
- * @fileOverview 图片懒加载
+ * @fileOverview 图片延迟加载
  * @author tianli
  * @date 2015-06-13
  * @version 1.5.3
