@@ -1,8 +1,8 @@
 /*
  * @fileOverview  checkbox
- * @author wufangjian
+ * @author tianli
  * @description  [Y]:参数必须  [N]:参数可选
- * @date 2014-09-26
+ * @date 2015-04-26
  * @version 1.0
  */
 define(function(require, exports, module) {
