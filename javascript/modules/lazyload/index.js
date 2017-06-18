@@ -1,8 +1,3 @@
-/*!
- * author:jieyou
- * see https://github.com/jieyou/lazyload
- * part of the code fork from tuupola's https://github.com/tuupola/jquery_lazyload
- */
 
 define(function(require, exports, module) {
     var LazyLoad = (function($){
@@ -20,7 +15,7 @@ define(function(require, exports, module) {
                 skip_invisible              : true,
                 appear                      : emptyFn,
                 load                        : emptyFn,
-                vertical_only               : false,
+                vertical_only               : true,
                 minimum_interval            : 300,
                 use_minimum_interval_in_ios : false,
                 url_rewriter_fn             : emptyFn,
@@ -311,7 +306,6 @@ define(function(require, exports, module) {
 
     if (typeof module !== 'undefined' && module.exports) {
         module.exports = LazyLoad;
-        //module.exports.FastClick = FastClick;
     } else {
         window.LazyLoad = LazyLoad;
     }
